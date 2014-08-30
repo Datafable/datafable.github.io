@@ -1,0 +1,14 @@
+.jumbotron {
+    /*background: url("http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_52dd4720e8387_1.JPG");*/
+    /*background: url("https://s3.amazonaws.com/ooomf-com-files/Ji9qebSpSlSbnsWRZnDX__MG_9520.jpg");*/
+    /*background: url("https://s3.amazonaws.com/ooomf-com-files/pygwO3glRbaBCh2uRyd4_8420_rgb.jpg");*/
+    background-image: url("http://33.media.tumblr.com/f6c67ec2821a91051e4175f8a102e1e2/tumblr_n6rzpcsMk41st5lhmo1_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    }
+    .jumbotron .container {
+        color: white;
+        text-shadow: 1px 1px #333333;
+    }
