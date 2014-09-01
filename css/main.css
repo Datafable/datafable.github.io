@@ -10,6 +10,26 @@
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     }
 
-.thumbnail {
-    background: #dddddd;
-}
+.portfolio {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    }
+    .portfolio a { /* Thumbnail class */
+        border-radius: 0;
+        padding: 0;
+        }
+        .portfolio a:hover {
+            border-color: #398439;
+            border-width: 5px;
+            margin: -4px -4px 16px -4px; /* To offset border hover, including margin-bottom: 20px */
+            text-decoration: none;
+        }
+        .portfolio img {
+            width: 100%;
+        }
+        .portfolio .caption {
+            min-height: 130px;
+            }
+            .portfolio .caption p {
+                color: #777;
+            }
