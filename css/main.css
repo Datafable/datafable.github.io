@@ -10,6 +10,13 @@
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     }
 
+.description {
+    margin-bottom: 30px;
+    }
+    .description h1 {
+        margin-bottom: 20px;
+    }
+
 .portfolio {
     background-color: #f8f8f8;
     border-top: 1px solid #e7e7e7;
