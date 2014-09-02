@@ -19,6 +19,7 @@
 
 .portfolio {
     background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
     border-top: 1px solid #e7e7e7;
     }
     .portfolio a { /* Thumbnail class */
@@ -40,3 +41,8 @@
             .portfolio .caption p {
                 color: #777;
             }
+
+.footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
