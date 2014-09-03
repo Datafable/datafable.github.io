@@ -1,3 +1,7 @@
+.navbar {
+    margin-bottom: 0;
+}    
+
 .jumbotron {
     background-image: url("../images/background-forest.jpg"); /* Image by Jonas Nilsson Lee (http://www.nilssonlee.se/) */
     background-position: center;
