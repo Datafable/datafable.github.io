@@ -1,6 +1,13 @@
 .navbar {
     margin-bottom: 0;
-} 
+    }
+    @media (min-width: 768px) {
+        /* Reduce padding to make place for fa-2x icons. */
+        .navbar .icons li a {
+            padding-top: 11px;
+            padding-bottom: 11px;
+        }
+    }    
 
 .jumbotron {
     background-image: url("../images/background-forest.jpg"); /* Image by Jonas Nilsson Lee (http://www.nilssonlee.se/) */
