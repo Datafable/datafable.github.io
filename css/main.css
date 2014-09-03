@@ -63,7 +63,7 @@
     .footer address {
         margin-top: 25px; /* Align with .media-body h4 */
     }
-    .footer .media-object, .footer address img {
+    .footer .media-object {
         height: 72px;
         width: 72px;
     }
