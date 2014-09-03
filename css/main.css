@@ -57,6 +57,9 @@
     padding-bottom: 20px;
     padding-top: 20px;
     }
+    .footer a:hover {
+        text-decoration: none;
+    }
     .footer address {
         margin-top: 25px; /* Align with .media-body h4 */
     }
