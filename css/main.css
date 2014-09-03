@@ -1,21 +1,6 @@
 .navbar {
     margin-bottom: 0;
-    }
-    .navbar .icons i {
-        display: none;
-    }
-    @media (min-width: 768px) {
-        .navbar .icons i {
-            display: inline;
-        }
-        .navbar .icons span {
-            display: none;
-        }
-        .navbar .icons li a {
-            padding-top: 11px;
-            padding-bottom: 11px;
-        }
-    }    
+} 
 
 .jumbotron {
     background-image: url("../images/background-forest.jpg"); /* Image by Jonas Nilsson Lee (http://www.nilssonlee.se/) */
