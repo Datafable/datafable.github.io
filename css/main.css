@@ -33,25 +33,25 @@
     border-bottom: 1px solid #e7e7e7;
     border-top: 1px solid #e7e7e7;
     }
-    .portfolio a { /* Thumbnail class */
+    a.thumbnail {
         border-radius: 0;
         padding: 0;
         -webkit-transition: initial;
         transition: initial;
         }
-        .portfolio a:hover {
+        a.thumbnail:hover {
             border-color: #428bca;
             border-width: 5px;
             margin: -4px -4px 16px -4px; /* To offset border hover, including margin-bottom: 20px */
             text-decoration: none;
         }
-        .portfolio img {
+        .thumbnail img {
             width: 100%;
         }
-        .portfolio .caption {
+        .thumbnail .caption {
             min-height: 130px;
             }
-            .portfolio .caption p {
+            .thumbnail .caption p {
                 color: #777;
             }
 
