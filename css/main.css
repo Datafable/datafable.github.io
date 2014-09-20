@@ -36,9 +36,11 @@
     .portfolio a { /* Thumbnail class */
         border-radius: 0;
         padding: 0;
+        -webkit-transition: initial;
+        transition: initial;
         }
         .portfolio a:hover {
-            border-color: #398439;
+            border-color: #428bca;
             border-width: 5px;
             margin: -4px -4px 16px -4px; /* To offset border hover, including margin-bottom: 20px */
             text-decoration: none;
