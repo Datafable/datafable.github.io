@@ -1,0 +1,77 @@
+.navbar {
+    margin-bottom: 0;
+    }
+    @media (min-width: 768px) {
+        /* Reduce padding to make place for fa-2x icons. */
+        .navbar .icons li a {
+            padding-top: 11px;
+            padding-bottom: 11px;
+        }
+    }    
+
+.jumbotron {
+    background-image: url("../images/background-forest.jpg"); /* Image by Jonas Nilsson Lee (http://www.nilssonlee.se/) */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    }
+    .jumbotron h1, .jumbotron p {
+        color: white;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+.description {
+    margin-bottom: 30px;
+    }
+    .description h1 {
+        margin-bottom: 20px;
+    }
+
+.portfolio {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    }
+    a.thumbnail {
+        border-radius: 0;
+        padding: 0;
+        -webkit-transition: initial;
+        transition: initial;
+        }
+        a.thumbnail:hover {
+            border-color: #428bca;
+            border-width: 5px;
+            margin: -4px -4px 16px -4px; /* To offset border hover, including margin-bottom: 20px */
+            text-decoration: none;
+        }
+        .thumbnail img {
+            width: 100%;
+        }
+        .thumbnail .caption {
+            min-height: 130px;
+            }
+            .thumbnail .caption p {
+                color: #777;
+            }
+    .portfolio .credit {
+        color: #777;
+        font-size: 11px;
+        margin-top: -15px;
+        padding: 0 9px;
+    }
+
+.footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+    .footer a:hover {
+        text-decoration: none;
+    }
+    .footer address {
+        margin-top: 25px; /* Align with .media-body h4 */
+    }
+    .footer .media-object {
+        height: 72px;
+        width: 72px;
+    }
