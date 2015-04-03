@@ -1,4 +1,5 @@
 body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-top: 50px; /* For navbar-fixed-top. See also app.js and body data-offset */
     position: relative;
 }
@@ -16,11 +17,15 @@ nav {
     }    
 
 section {
+    font-size: 16px;
     padding-bottom: 30px;
     padding-top: 30px;
     }
     section h2 {
+        font-size: 40px;
+        font-weight: bold;
         margin-bottom: 30px;
+        text-align: center;
     }
 
 .jumbotron {
