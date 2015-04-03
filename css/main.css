@@ -1,4 +1,10 @@
+body {
+    padding-top: 50px; /* For navbar-fixed-top. See also app.js and body data-offset */
+    position: relative;
+}
+
 .navbar {
+    min-height: 50px; /* Min-height to allow menu to expand on small screens. */
     margin-bottom: 0;
     }
     @media (min-width: 768px) {
