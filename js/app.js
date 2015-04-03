@@ -12,4 +12,7 @@ $(function() {
 // Highlight the top nav as scrolling occurs
 $("body").scrollspy({
     target: ".navbar-fixed-top"
-})
+})// Closes the responsive menu on menu item click
+$(".navbar-collapse ul li a").click(function() {
+    $(".navbar-toggle:visible").click();
+});
