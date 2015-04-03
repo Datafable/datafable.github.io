@@ -3,13 +3,13 @@ body {
     position: relative;
 }
 
-.navbar {
+nav {
     min-height: 50px; /* Min-height to allow menu to expand on small screens. */
     margin-bottom: 0;
     }
     @media (min-width: 768px) {
         /* Reduce padding to make place for fa-2x icons. */
-        .navbar .icons li a {
+        nav .icons li a {
             padding-top: 11px;
             padding-bottom: 11px;
         }
@@ -23,7 +23,7 @@ body {
     height: 500px;
     }
     .jumbotron h1, .jumbotron p {
-        color: white;
+        color: #ffffff;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     }
 
@@ -43,6 +43,7 @@ body {
         border-radius: 0;
         padding: 0;
         -webkit-transition: initial;
+        -moz-transition: intial;
         transition: initial;
         }
         a.thumbnail:hover {
