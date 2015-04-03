@@ -74,6 +74,43 @@ section {
         padding: 0 9px;
     }
 
+#team {
+    background: #f8f8f8;
+    }
+    .team-member {
+        margin-bottom: 30px;
+        text-align: center;
+        }
+        .team-member img {
+            border: 8px solid #ffffff;
+        }
+        .team-member h4 {
+            margin-bottom: 5px;
+            margin-top: 20px;
+        }
+        ul.social-buttons {
+            margin-bottom: 0;
+            }
+            ul.social-buttons li a {
+                background-color: #333333;
+                border-radius: 100%;
+                color: #ffffff;
+                display: block;
+                font-size: 22px;
+                height: 40px;
+                line-height: 40px;
+                width: 40px;
+                -webkit-transition: all .3s;
+                -moz-transition: all .3s;
+                transition: all .3s;
+                }
+                ul.social-buttons li a:hover,
+                ul.social-buttons li a:focus,
+                ul.social-buttons li a:active {
+                    background-color: #428bca;
+                }
+
+
 #contact {
     padding-bottom: 20px;
     padding-top: 20px;
