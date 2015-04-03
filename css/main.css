@@ -1,4 +1,9 @@
+body {
+    padding-top: 60px;
+}
+
 .navbar {
+    height: 60px;
     margin-bottom: 0;
     }
     @media (min-width: 768px) {
