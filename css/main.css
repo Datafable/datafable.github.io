@@ -27,14 +27,14 @@ body {
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     }
 
-.description {
+#description {
     margin-bottom: 30px;
     }
-    .description h1 {
+    #description h1 {
         margin-bottom: 20px;
     }
 
-.portfolio {
+#portfolio {
     background-color: #f8f8f8;
     border-bottom: 1px solid #e7e7e7;
     border-top: 1px solid #e7e7e7;
@@ -60,24 +60,24 @@ body {
             .thumbnail .caption p {
                 color: #777;
             }
-    .portfolio .credit {
+    #portfolio .credit {
         color: #777;
         font-size: 11px;
         margin-top: -15px;
         padding: 0 9px;
     }
 
-.footer {
+#contact {
     padding-bottom: 20px;
     padding-top: 20px;
     }
-    .footer a:hover {
+    #contact a:hover {
         text-decoration: none;
     }
-    .footer address {
+    #contact address {
         margin-top: 25px; /* Align with .media-body h4 */
     }
-    .footer .media-object {
+    #contact .media-object {
         height: 72px;
         width: 72px;
     }
