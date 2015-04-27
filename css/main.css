@@ -14,18 +14,13 @@ nav {
             padding-top: 11px;
             padding-bottom: 11px;
         }
-    }    
-
-section {
-    font-size: 16px;
-    padding-bottom: 30px;
-    padding-top: 30px;
     }
-    section h2 {
-        font-size: 40px;
-        font-weight: bold;
-        margin-bottom: 30px;
-        text-align: center;
+
+#navigation {
+    }
+    .navbar-inverse .navbar-brand,
+    .navbar-inverse .navbar-nav > li > a {
+        color: #aaaaaa;
     }
 
 .jumbotron {
@@ -43,11 +38,27 @@ section {
         margin-right: 5px;
     }
 
-#service {
+section {
+    font-size: 16px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    }
+    section h2 {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+    }
+    section h3 {
+        font-style: italic;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+#services {
     }
     .service {
         text-align: center;
-    }
+        }
 
 #portfolio {
     background-color: #f8f8f8;
