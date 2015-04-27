@@ -112,7 +112,7 @@ section {
             margin-bottom: 0;
             }
             ul.social-buttons li a {
-                background-color: #333333;
+                background-color: #fd2b30;
                 border-radius: 100%;
                 color: #ffffff;
                 display: block;
@@ -130,18 +130,10 @@ section {
                     background-color: #428bca;
                 }
 
-
 #contact {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    /*padding-bottom: 20px;*/
+    /*padding-top: 20px;*/
     }
-    #contact a:hover {
-        text-decoration: none;
-    }
-    #contact address {
-        margin-top: 25px; /* Align with .media-body h4 */
-    }
-    #contact .media-object {
-        height: 72px;
-        width: 72px;
+    #contact .center-block {
+        width: 50%;
     }
