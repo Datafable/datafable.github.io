@@ -23,19 +23,19 @@ nav {
         color: #aaaaaa;
     }
 
-.jumbotron {
-    background-image: url("../images/background-forest.jpg"); /* Image by Jonas Nilsson Lee (http://www.nilssonlee.se/) */
+#intro {
+    background-image: url("../images/intro-background.jpg"); /* Image by Nick Diamantidis (http://behance.net/nick_diama) */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     }
-    .jumbotron h1, .jumbotron p {
+    #intro h1 {
         color: #ffffff;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     }
-    .jumbotron .btn-success {
-        margin-right: 5px;
+    #intro .brand {
+        color: #fd2b30;
     }
 
 section {
